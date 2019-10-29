@@ -1,0 +1,45 @@
+.year
+    padding: 0
+
+.day-column
+    display: inline-block
+    font-size: $font-size / 2
+    font-family: $font-family
+    list-style: none
+    padding: 0
+    margin: 0 $small-spacing 0 0
+    vertical-align: top
+    .day-header
+        height: $large-spacing
+        margin: 0 $tiny-spacing $tiny-spacing 0
+
+$months: jan feb mar apr may jun jul aug sep oct nov dec
+
+=months
+    @each $month in $months
+        &.#{$month}
+            &::after
+                text-transform: capitalize
+                content: '#{$month}'
+                position: absolute
+                bottom: -$large-spacing
+
+.week
+    display: inline-block
+    list-style: none
+    padding: 0
+    margin: 0 0 $large-spacing 0
+    position: relative
+    font-family: $font-family
+    font-size: $font-size-small
+    .day
+        border-radius: $tiny-spacing
+        width: $large-spacing
+        height: $large-spacing
+        margin: 0 $tiny-spacing $tiny-spacing 0
+        &.no-data-0
+            background-color: $default
+        +months
+
+
+@import './cellColours'
