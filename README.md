@@ -24,7 +24,9 @@ In order to maintain accessibility the entire year is rendered as li’s with ti
 
 ### Improvements
 
-Add a month component to ensure that users can navigate between months.
-Pull the data into the component using fetch.
-Pull price in to show amount lost/gained in in transactions.
-Include hover or click state to display expanded information.
+- Add a month component to ensure that users can navigate between months.
+- Pull the data into the component using fetch.
+- Pull price in to show amount lost/gained in in transactions.
+- Include hover or click state to display expanded information.
+- Put data into redux so it fan be refreshed into browser cache when available.
+- Render this data as html on the server and refresh once per day.
