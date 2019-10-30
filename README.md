@@ -30,3 +30,5 @@ In order to maintain accessibility the entire year is rendered as li’s with ti
 - Include hover or click state to display expanded information.
 - Put data into redux so it fan be refreshed into browser cache when available.
 - Render this data as html on the server and refresh once per day.
+- Add currency processing.
+- Read the instructions properly!

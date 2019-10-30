@@ -71885,10 +71885,10 @@ exports.default = function (day, data, dictionary) {
   });
   day.score = Math.floor(Math.abs(day.value) / 10) % 10; // Set labels and score
 
-  if (Math.abs(day.successes) > Math.abs(day.failures)) {
+  if (day.successes > day.failures) {
     day.class = dictionary.successClass;
     day.type = dictionary.successLabel;
-  } else if (Math.abs(day.failures) > Math.abs(day.successes)) {
+  } else if (day.failures > day.successes) {
     day.class = dictionary.failureClass;
     day.type = dictionary.failureLabel;
     day.score = Math.abs(day.score);
@@ -72224,7 +72224,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62341" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62715" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
