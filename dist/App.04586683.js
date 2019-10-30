@@ -71967,7 +71967,7 @@ function (_super) {
     var currentDay = DayProcessor_1.default(day, evezy_transactions_1.default, dictionary);
     return React.createElement("li", {
       className: "day " + currentDay.class + "-" + Math.abs(currentDay.score) + " " + (currentDay.monthLabel ? dictionary.months[currentDay.date.getMonth()].toLowerCase() : ''),
-      title: currentDay.simpleDate + " " + currentDay.type + " " + currentDay.value + " - " + currentDay.successes + " " + dictionary.successesLabel + "/" + currentDay.failures + " " + dictionary.failuresLabel
+      title: currentDay.simpleDate + " " + currentDay.type + " " + currentDay.value + " - " + currentDay.successes + " " + dictionary.valueLabel + " " + dictionary.successesLabel + " / " + currentDay.failures + " " + dictionary.valueLabel + " " + dictionary.failuresLabel
     });
   };
 
@@ -71981,6 +71981,7 @@ function (_super) {
       successClass: 'success',
       failureClass: 'failure',
       noDataClass: 'no-data',
+      valueLabel: 'value of',
       months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     }
   };

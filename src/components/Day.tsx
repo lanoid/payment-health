@@ -15,6 +15,7 @@ interface Props {
         successClass: string;
         failureClass: string;
         noDataClass: string;
+        valueLabel: string;
         months: string[];
     };
 }
@@ -30,6 +31,7 @@ export default class Day extends React.Component<Props> {
             successClass: 'success',
             failureClass: 'failure',
             noDataClass: 'no-data',
+            valueLabel: 'value of',
             months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
         }
     }
@@ -38,7 +40,7 @@ export default class Day extends React.Component<Props> {
         const { day, dictionary } = this.props;
         const currentDay = DayProcessor(day, data, dictionary);
         return (
-            <li className={`day ${currentDay.class}-${Math.abs(currentDay.score)} ${currentDay.monthLabel ? dictionary.months[currentDay.date.getMonth()].toLowerCase() : ''}`} title={`${currentDay.simpleDate} ${currentDay.type} ${currentDay.value} - ${currentDay.successes} ${dictionary.successesLabel}/${currentDay.failures} ${dictionary.failuresLabel}`}></li>
+            <li className={`day ${currentDay.class}-${Math.abs(currentDay.score)} ${currentDay.monthLabel ? dictionary.months[currentDay.date.getMonth()].toLowerCase() : ''}`} title={`${currentDay.simpleDate} ${currentDay.type} ${currentDay.value} - ${currentDay.successes} ${dictionary.valueLabel} ${dictionary.successesLabel} / ${currentDay.failures} ${dictionary.valueLabel} ${dictionary.failuresLabel}`}></li>
         )
     }
 }
