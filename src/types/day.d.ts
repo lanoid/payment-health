@@ -9,5 +9,6 @@ export declare interface day {
     simpleDate?: string,
     class?: string,
     type?: string,
-    transactions?: transaction[]
+    transactions?: transaction[],
+    value?: number,
 }

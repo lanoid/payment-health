@@ -107,6 +107,10 @@
   bottom: -10px;
 }
 
+.failure-0 {
+  background-color: #ffbbbb;
+}
+
 .failure-1 {
   background-color: #ffb6b6;
 }
@@ -505,6 +509,10 @@
 
 .failure-100 {
   background-color: black;
+}
+
+.success-0 {
+  background-color: #99ffbb;
 }
 
 .success-1 {

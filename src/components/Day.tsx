@@ -38,7 +38,7 @@ export default class Day extends React.Component<Props> {
         const { day, dictionary } = this.props;
         const currentDay = DayProcessor(day, data, dictionary);
         return (
-            <li className={`day ${currentDay.class}-${currentDay.score} ${currentDay.monthLabel ? dictionary.months[currentDay.date.getMonth()].toLowerCase() : ''}`} title={`${currentDay.simpleDate} ${currentDay.type} - ${currentDay.successes} ${dictionary.successesLabel}/${currentDay.failures} ${dictionary.failuresLabel}`}></li>
+            <li className={`day ${currentDay.class}-${Math.abs(currentDay.score)} ${currentDay.monthLabel ? dictionary.months[currentDay.date.getMonth()].toLowerCase() : ''}`} title={`${currentDay.simpleDate} ${currentDay.type} ${currentDay.value} - ${currentDay.successes} ${dictionary.successesLabel}/${currentDay.failures} ${dictionary.failuresLabel}`}></li>
         )
     }
 }

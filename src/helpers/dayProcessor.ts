@@ -14,6 +14,7 @@ export default (day: day, data: transaction[], dictionary: any) => {
     day.simpleDate = DateString(day.date, '/', 'DMY');
     day.class = dictionary.noDataClass;
     day.type = dictionary.noDataLabel;
+    day.value = 0;
     
     // Filter transaction data relevant to the day
     day.transactions = data.filter((dataDay: any) => {
@@ -23,22 +24,27 @@ export default (day: day, data: transaction[], dictionary: any) => {
     // Generate a score for failure or success
     day.transactions.map((transaction: any) => {
         if(transaction.transactionType === 'success') {
-            day.successes++;
+            day.successes += Math.floor(transaction.amount);
             day.score++;
+            day.value += Math.floor(transaction.amount);
         } else {
-            day.failures++;
+            day.failures += Math.floor(transaction.amount);
             day.score--;
+            day.value -= Math.floor(transaction.amount);
         }
     });
 
+    day.score = Math.floor(Math.abs(day.value) / 10) % 10;
+
     // Set labels and score
-    if(day.score > 0) {
+    if(day.successes > day.failures) {
         day.class = dictionary.successClass
         day.type = dictionary.successLabel;
-    } else if (day.score < 0) {
+    } else if (day.failures > day.successes){
         day.class = dictionary.failureClass;
         day.type = dictionary.failureLabel;
         day.score = Math.abs(day.score);
     }
+
     return day;
 }

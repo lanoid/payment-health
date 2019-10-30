@@ -1,11 +1,11 @@
 $failure-slug: failure !default
 
-@for $i from 1 through 100
+@for $i from 0 through 100
     .#{$failure-slug}-#{$i}
         background-color: darken($failure, $i)
 
 $success-slug: success !default
 
-@for $i from 1 through 100
+@for $i from 0 through 100
     .#{$success-slug}-#{$i}
         background-color: darken($success, $i)

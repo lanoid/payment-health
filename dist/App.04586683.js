@@ -71865,7 +71865,8 @@ exports.default = function (day, data, dictionary) {
   day.successes = 0;
   day.simpleDate = dateString_1.default(day.date, '/', 'DMY');
   day.class = dictionary.noDataClass;
-  day.type = dictionary.noDataLabel; // Filter transaction data relevant to the day
+  day.type = dictionary.noDataLabel;
+  day.value = 0; // Filter transaction data relevant to the day
 
   day.transactions = data.filter(function (dataDay) {
     if (dataDay.date === date) return true;
@@ -71873,18 +71874,21 @@ exports.default = function (day, data, dictionary) {
 
   day.transactions.map(function (transaction) {
     if (transaction.transactionType === 'success') {
-      day.successes++;
+      day.successes += Math.floor(transaction.amount);
       day.score++;
+      day.value += Math.floor(transaction.amount);
     } else {
-      day.failures++;
+      day.failures += Math.floor(transaction.amount);
       day.score--;
+      day.value -= Math.floor(transaction.amount);
     }
-  }); // Set labels and score
+  });
+  day.score = Math.floor(Math.abs(day.value) / 10) % 10; // Set labels and score
 
-  if (day.score > 0) {
+  if (Math.abs(day.successes) > Math.abs(day.failures)) {
     day.class = dictionary.successClass;
     day.type = dictionary.successLabel;
-  } else if (day.score < 0) {
+  } else if (Math.abs(day.failures) > Math.abs(day.successes)) {
     day.class = dictionary.failureClass;
     day.type = dictionary.failureLabel;
     day.score = Math.abs(day.score);
@@ -71962,8 +71966,8 @@ function (_super) {
         dictionary = _a.dictionary;
     var currentDay = DayProcessor_1.default(day, evezy_transactions_1.default, dictionary);
     return React.createElement("li", {
-      className: "day " + currentDay.class + "-" + currentDay.score + " " + (currentDay.monthLabel ? dictionary.months[currentDay.date.getMonth()].toLowerCase() : ''),
-      title: currentDay.simpleDate + " " + currentDay.type + " - " + currentDay.successes + " " + dictionary.successesLabel + "/" + currentDay.failures + " " + dictionary.failuresLabel
+      className: "day " + currentDay.class + "-" + Math.abs(currentDay.score) + " " + (currentDay.monthLabel ? dictionary.months[currentDay.date.getMonth()].toLowerCase() : ''),
+      title: currentDay.simpleDate + " " + currentDay.type + " " + currentDay.value + " - " + currentDay.successes + " " + dictionary.successesLabel + "/" + currentDay.failures + " " + dictionary.failuresLabel
     });
   };
 
@@ -72219,7 +72223,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59902" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62341" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
