@@ -1,6 +1,6 @@
 # Payment Health
 
-An implementation of a year long heatmap featuring transactional data and displaying success/fail rates for each day.
+An implementation of heatmap that takes the sum of failed/successful transactions to determine the hotness of successes.
 
 ## Setup
 
