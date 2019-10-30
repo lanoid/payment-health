@@ -34,6 +34,7 @@ describe('DayAssessor', () => {
         expect(noDataDay.class).toBe('no-data');
         expect(noDataDay.type).toBe('no data');
         expect(noDataDay.transactions.length).toBe(0);
+        expect(noDataDay.value).toBe(0);
     });
 
     it('adds information about failures', () => {
@@ -44,13 +45,14 @@ describe('DayAssessor', () => {
         ];
         const failureDay = DayProcessor(day, data, dictionary);
 
-        expect(failureDay.score).toBe(1);
-        expect(failureDay.failures).toBe(2);
-        expect(failureDay.successes).toBe(1);
+        expect(failureDay.score).toBe(6);
+        expect(failureDay.failures).toBe(132);
+        expect(failureDay.successes).toBe(66);
         expect(failureDay.simpleDate).toBe(dateReadable);
         expect(failureDay.class).toBe('failure');
         expect(failureDay.type).toBe('failure');
         expect(failureDay.transactions.length).toBe(3);
+        expect(failureDay.value).toBe(-66);
     });
 
     it('adds information about successes', () => {
@@ -59,13 +61,14 @@ describe('DayAssessor', () => {
             {transactionType: 'success', date: shortDate, amount: 66.6},
             {transactionType: 'success', date: shortDate, amount: 66.6}
         ];
-        const failureDay = DayProcessor(day, data, dictionary);
-        expect(failureDay.score).toBe(3);
-        expect(failureDay.failures).toBe(0);
-        expect(failureDay.successes).toBe(3);
-        expect(failureDay.simpleDate).toBe(dateReadable);
-        expect(failureDay.class).toBe('success');
-        expect(failureDay.type).toBe('success');
-        expect(failureDay.transactions.length).toBe(3);
+        const successDay = DayProcessor(day, data, dictionary);
+        expect(successDay.score).toBe(9);
+        expect(successDay.failures).toBe(0);
+        expect(successDay.successes).toBe(198);
+        expect(successDay.simpleDate).toBe(dateReadable);
+        expect(successDay.class).toBe('success');
+        expect(successDay.type).toBe('success');
+        expect(successDay.transactions.length).toBe(3);
+        expect(successDay.value).toBe(198);
     });
 });

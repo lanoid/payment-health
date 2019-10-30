@@ -59,16 +59,12 @@ exports[`Year matches snapshot 1`] = `
       week={
         Array [
           Object {
-            "date": 2018-10-30T00:00:00.000Z,
-            "monthLabel": false,
-          },
-          Object {
             "date": 2018-10-31T00:00:00.000Z,
             "monthLabel": false,
           },
           Object {
             "date": 2018-11-01T00:00:00.000Z,
-            "monthLabel": true,
+            "monthLabel": false,
           },
           Object {
             "date": 2018-11-02T00:00:00.000Z,
@@ -86,6 +82,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2018-11-05T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2018-11-06T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -93,10 +93,6 @@ exports[`Year matches snapshot 1`] = `
       key="1"
       week={
         Array [
-          Object {
-            "date": 2018-11-06T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2018-11-07T00:00:00.000Z,
             "monthLabel": false,
@@ -121,6 +117,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2018-11-12T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2018-11-13T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -128,10 +128,6 @@ exports[`Year matches snapshot 1`] = `
       key="2"
       week={
         Array [
-          Object {
-            "date": 2018-11-13T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2018-11-14T00:00:00.000Z,
             "monthLabel": false,
@@ -156,6 +152,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2018-11-19T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2018-11-20T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -163,10 +163,6 @@ exports[`Year matches snapshot 1`] = `
       key="3"
       week={
         Array [
-          Object {
-            "date": 2018-11-20T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2018-11-21T00:00:00.000Z,
             "monthLabel": false,
@@ -191,6 +187,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2018-11-26T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2018-11-27T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -198,10 +198,6 @@ exports[`Year matches snapshot 1`] = `
       key="4"
       week={
         Array [
-          Object {
-            "date": 2018-11-27T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2018-11-28T00:00:00.000Z,
             "monthLabel": false,
@@ -226,6 +222,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2018-12-03T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2018-12-04T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -233,10 +233,6 @@ exports[`Year matches snapshot 1`] = `
       key="5"
       week={
         Array [
-          Object {
-            "date": 2018-12-04T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2018-12-05T00:00:00.000Z,
             "monthLabel": false,
@@ -261,6 +257,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2018-12-10T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2018-12-11T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -268,10 +268,6 @@ exports[`Year matches snapshot 1`] = `
       key="6"
       week={
         Array [
-          Object {
-            "date": 2018-12-11T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2018-12-12T00:00:00.000Z,
             "monthLabel": false,
@@ -296,6 +292,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2018-12-17T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2018-12-18T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -303,10 +303,6 @@ exports[`Year matches snapshot 1`] = `
       key="7"
       week={
         Array [
-          Object {
-            "date": 2018-12-18T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2018-12-19T00:00:00.000Z,
             "monthLabel": false,
@@ -331,6 +327,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2018-12-24T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2018-12-25T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -338,10 +338,6 @@ exports[`Year matches snapshot 1`] = `
       key="8"
       week={
         Array [
-          Object {
-            "date": 2018-12-25T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2018-12-26T00:00:00.000Z,
             "monthLabel": false,
@@ -366,6 +362,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2018-12-31T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-01-01T00:00:00.000Z,
+            "monthLabel": true,
+          },
         ]
       }
     />
@@ -373,10 +373,6 @@ exports[`Year matches snapshot 1`] = `
       key="9"
       week={
         Array [
-          Object {
-            "date": 2019-01-01T00:00:00.000Z,
-            "monthLabel": true,
-          },
           Object {
             "date": 2019-01-02T00:00:00.000Z,
             "monthLabel": false,
@@ -401,6 +397,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-01-07T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-01-08T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -408,10 +408,6 @@ exports[`Year matches snapshot 1`] = `
       key="10"
       week={
         Array [
-          Object {
-            "date": 2019-01-08T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-01-09T00:00:00.000Z,
             "monthLabel": false,
@@ -436,6 +432,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-01-14T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-01-15T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -443,10 +443,6 @@ exports[`Year matches snapshot 1`] = `
       key="11"
       week={
         Array [
-          Object {
-            "date": 2019-01-15T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-01-16T00:00:00.000Z,
             "monthLabel": false,
@@ -471,6 +467,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-01-21T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-01-22T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -478,10 +478,6 @@ exports[`Year matches snapshot 1`] = `
       key="12"
       week={
         Array [
-          Object {
-            "date": 2019-01-22T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-01-23T00:00:00.000Z,
             "monthLabel": false,
@@ -506,6 +502,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-01-28T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-01-29T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -513,10 +513,6 @@ exports[`Year matches snapshot 1`] = `
       key="13"
       week={
         Array [
-          Object {
-            "date": 2019-01-29T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-01-30T00:00:00.000Z,
             "monthLabel": false,
@@ -541,6 +537,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-02-04T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-02-05T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -548,10 +548,6 @@ exports[`Year matches snapshot 1`] = `
       key="14"
       week={
         Array [
-          Object {
-            "date": 2019-02-05T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-02-06T00:00:00.000Z,
             "monthLabel": false,
@@ -576,6 +572,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-02-11T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-02-12T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -583,10 +583,6 @@ exports[`Year matches snapshot 1`] = `
       key="15"
       week={
         Array [
-          Object {
-            "date": 2019-02-12T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-02-13T00:00:00.000Z,
             "monthLabel": false,
@@ -611,6 +607,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-02-18T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-02-19T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -618,10 +618,6 @@ exports[`Year matches snapshot 1`] = `
       key="16"
       week={
         Array [
-          Object {
-            "date": 2019-02-19T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-02-20T00:00:00.000Z,
             "monthLabel": false,
@@ -646,6 +642,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-02-25T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-02-26T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -653,10 +653,6 @@ exports[`Year matches snapshot 1`] = `
       key="17"
       week={
         Array [
-          Object {
-            "date": 2019-02-26T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-02-27T00:00:00.000Z,
             "monthLabel": false,
@@ -681,6 +677,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-03-04T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-03-05T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -688,10 +688,6 @@ exports[`Year matches snapshot 1`] = `
       key="18"
       week={
         Array [
-          Object {
-            "date": 2019-03-05T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-03-06T00:00:00.000Z,
             "monthLabel": false,
@@ -716,6 +712,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-03-11T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-03-12T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -723,10 +723,6 @@ exports[`Year matches snapshot 1`] = `
       key="19"
       week={
         Array [
-          Object {
-            "date": 2019-03-12T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-03-13T00:00:00.000Z,
             "monthLabel": false,
@@ -751,6 +747,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-03-18T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-03-19T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -758,10 +758,6 @@ exports[`Year matches snapshot 1`] = `
       key="20"
       week={
         Array [
-          Object {
-            "date": 2019-03-19T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-03-20T00:00:00.000Z,
             "monthLabel": false,
@@ -786,6 +782,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-03-25T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-03-26T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -793,10 +793,6 @@ exports[`Year matches snapshot 1`] = `
       key="21"
       week={
         Array [
-          Object {
-            "date": 2019-03-26T00:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-03-27T00:00:00.000Z,
             "monthLabel": false,
@@ -821,6 +817,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-03-31T23:00:00.000Z,
             "monthLabel": true,
           },
+          Object {
+            "date": 2019-04-01T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -828,10 +828,6 @@ exports[`Year matches snapshot 1`] = `
       key="22"
       week={
         Array [
-          Object {
-            "date": 2019-04-01T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-04-02T23:00:00.000Z,
             "monthLabel": false,
@@ -856,6 +852,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-04-07T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-04-08T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -863,10 +863,6 @@ exports[`Year matches snapshot 1`] = `
       key="23"
       week={
         Array [
-          Object {
-            "date": 2019-04-08T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-04-09T23:00:00.000Z,
             "monthLabel": false,
@@ -891,6 +887,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-04-14T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-04-15T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -898,10 +898,6 @@ exports[`Year matches snapshot 1`] = `
       key="24"
       week={
         Array [
-          Object {
-            "date": 2019-04-15T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-04-16T23:00:00.000Z,
             "monthLabel": false,
@@ -926,6 +922,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-04-21T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-04-22T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -933,10 +933,6 @@ exports[`Year matches snapshot 1`] = `
       key="25"
       week={
         Array [
-          Object {
-            "date": 2019-04-22T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-04-23T23:00:00.000Z,
             "monthLabel": false,
@@ -961,6 +957,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-04-28T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-04-29T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -968,10 +968,6 @@ exports[`Year matches snapshot 1`] = `
       key="26"
       week={
         Array [
-          Object {
-            "date": 2019-04-29T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-04-30T23:00:00.000Z,
             "monthLabel": true,
@@ -996,6 +992,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-05-05T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-05-06T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1003,10 +1003,6 @@ exports[`Year matches snapshot 1`] = `
       key="27"
       week={
         Array [
-          Object {
-            "date": 2019-05-06T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-05-07T23:00:00.000Z,
             "monthLabel": false,
@@ -1031,6 +1027,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-05-12T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-05-13T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1038,10 +1038,6 @@ exports[`Year matches snapshot 1`] = `
       key="28"
       week={
         Array [
-          Object {
-            "date": 2019-05-13T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-05-14T23:00:00.000Z,
             "monthLabel": false,
@@ -1066,6 +1062,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-05-19T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-05-20T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1073,10 +1073,6 @@ exports[`Year matches snapshot 1`] = `
       key="29"
       week={
         Array [
-          Object {
-            "date": 2019-05-20T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-05-21T23:00:00.000Z,
             "monthLabel": false,
@@ -1101,6 +1097,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-05-26T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-05-27T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1108,10 +1108,6 @@ exports[`Year matches snapshot 1`] = `
       key="30"
       week={
         Array [
-          Object {
-            "date": 2019-05-27T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-05-28T23:00:00.000Z,
             "monthLabel": false,
@@ -1136,6 +1132,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-06-02T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-06-03T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1143,10 +1143,6 @@ exports[`Year matches snapshot 1`] = `
       key="31"
       week={
         Array [
-          Object {
-            "date": 2019-06-03T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-06-04T23:00:00.000Z,
             "monthLabel": false,
@@ -1171,6 +1167,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-06-09T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-06-10T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1178,10 +1178,6 @@ exports[`Year matches snapshot 1`] = `
       key="32"
       week={
         Array [
-          Object {
-            "date": 2019-06-10T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-06-11T23:00:00.000Z,
             "monthLabel": false,
@@ -1206,6 +1202,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-06-16T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-06-17T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1213,10 +1213,6 @@ exports[`Year matches snapshot 1`] = `
       key="33"
       week={
         Array [
-          Object {
-            "date": 2019-06-17T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-06-18T23:00:00.000Z,
             "monthLabel": false,
@@ -1241,6 +1237,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-06-23T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-06-24T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1248,10 +1248,6 @@ exports[`Year matches snapshot 1`] = `
       key="34"
       week={
         Array [
-          Object {
-            "date": 2019-06-24T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-06-25T23:00:00.000Z,
             "monthLabel": false,
@@ -1276,6 +1272,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-06-30T23:00:00.000Z,
             "monthLabel": true,
           },
+          Object {
+            "date": 2019-07-01T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1283,10 +1283,6 @@ exports[`Year matches snapshot 1`] = `
       key="35"
       week={
         Array [
-          Object {
-            "date": 2019-07-01T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-07-02T23:00:00.000Z,
             "monthLabel": false,
@@ -1311,6 +1307,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-07-07T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-07-08T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1318,10 +1318,6 @@ exports[`Year matches snapshot 1`] = `
       key="36"
       week={
         Array [
-          Object {
-            "date": 2019-07-08T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-07-09T23:00:00.000Z,
             "monthLabel": false,
@@ -1346,6 +1342,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-07-14T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-07-15T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1353,10 +1353,6 @@ exports[`Year matches snapshot 1`] = `
       key="37"
       week={
         Array [
-          Object {
-            "date": 2019-07-15T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-07-16T23:00:00.000Z,
             "monthLabel": false,
@@ -1381,6 +1377,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-07-21T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-07-22T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1388,10 +1388,6 @@ exports[`Year matches snapshot 1`] = `
       key="38"
       week={
         Array [
-          Object {
-            "date": 2019-07-22T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-07-23T23:00:00.000Z,
             "monthLabel": false,
@@ -1416,6 +1412,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-07-28T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-07-29T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1423,10 +1423,6 @@ exports[`Year matches snapshot 1`] = `
       key="39"
       week={
         Array [
-          Object {
-            "date": 2019-07-29T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-07-30T23:00:00.000Z,
             "monthLabel": false,
@@ -1451,6 +1447,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-08-04T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-08-05T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1458,10 +1458,6 @@ exports[`Year matches snapshot 1`] = `
       key="40"
       week={
         Array [
-          Object {
-            "date": 2019-08-05T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-08-06T23:00:00.000Z,
             "monthLabel": false,
@@ -1486,6 +1482,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-08-11T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-08-12T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1493,10 +1493,6 @@ exports[`Year matches snapshot 1`] = `
       key="41"
       week={
         Array [
-          Object {
-            "date": 2019-08-12T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-08-13T23:00:00.000Z,
             "monthLabel": false,
@@ -1521,6 +1517,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-08-18T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-08-19T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1528,10 +1528,6 @@ exports[`Year matches snapshot 1`] = `
       key="42"
       week={
         Array [
-          Object {
-            "date": 2019-08-19T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-08-20T23:00:00.000Z,
             "monthLabel": false,
@@ -1556,6 +1552,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-08-25T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-08-26T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1563,10 +1563,6 @@ exports[`Year matches snapshot 1`] = `
       key="43"
       week={
         Array [
-          Object {
-            "date": 2019-08-26T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-08-27T23:00:00.000Z,
             "monthLabel": false,
@@ -1591,6 +1587,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-09-01T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-09-02T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1598,10 +1598,6 @@ exports[`Year matches snapshot 1`] = `
       key="44"
       week={
         Array [
-          Object {
-            "date": 2019-09-02T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-09-03T23:00:00.000Z,
             "monthLabel": false,
@@ -1626,6 +1622,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-09-08T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-09-09T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1633,10 +1633,6 @@ exports[`Year matches snapshot 1`] = `
       key="45"
       week={
         Array [
-          Object {
-            "date": 2019-09-09T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-09-10T23:00:00.000Z,
             "monthLabel": false,
@@ -1661,6 +1657,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-09-15T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-09-16T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1668,10 +1668,6 @@ exports[`Year matches snapshot 1`] = `
       key="46"
       week={
         Array [
-          Object {
-            "date": 2019-09-16T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-09-17T23:00:00.000Z,
             "monthLabel": false,
@@ -1696,6 +1692,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-09-22T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-09-23T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1703,10 +1703,6 @@ exports[`Year matches snapshot 1`] = `
       key="47"
       week={
         Array [
-          Object {
-            "date": 2019-09-23T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-09-24T23:00:00.000Z,
             "monthLabel": false,
@@ -1731,6 +1727,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-09-29T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-09-30T23:00:00.000Z,
+            "monthLabel": true,
+          },
         ]
       }
     />
@@ -1738,10 +1738,6 @@ exports[`Year matches snapshot 1`] = `
       key="48"
       week={
         Array [
-          Object {
-            "date": 2019-09-30T23:00:00.000Z,
-            "monthLabel": true,
-          },
           Object {
             "date": 2019-10-01T23:00:00.000Z,
             "monthLabel": false,
@@ -1766,6 +1762,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-10-06T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-10-07T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1773,10 +1773,6 @@ exports[`Year matches snapshot 1`] = `
       key="49"
       week={
         Array [
-          Object {
-            "date": 2019-10-07T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-10-08T23:00:00.000Z,
             "monthLabel": false,
@@ -1801,6 +1797,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-10-13T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-10-14T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1808,10 +1808,6 @@ exports[`Year matches snapshot 1`] = `
       key="50"
       week={
         Array [
-          Object {
-            "date": 2019-10-14T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-10-15T23:00:00.000Z,
             "monthLabel": false,
@@ -1836,6 +1832,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-10-20T23:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-10-21T23:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1843,10 +1843,6 @@ exports[`Year matches snapshot 1`] = `
       key="51"
       week={
         Array [
-          Object {
-            "date": 2019-10-21T23:00:00.000Z,
-            "monthLabel": false,
-          },
           Object {
             "date": 2019-10-22T23:00:00.000Z,
             "monthLabel": false,
@@ -1871,6 +1867,10 @@ exports[`Year matches snapshot 1`] = `
             "date": 2019-10-28T00:00:00.000Z,
             "monthLabel": false,
           },
+          Object {
+            "date": 2019-10-29T00:00:00.000Z,
+            "monthLabel": false,
+          },
         ]
       }
     />
@@ -1879,7 +1879,7 @@ exports[`Year matches snapshot 1`] = `
       week={
         Array [
           Object {
-            "date": 2019-10-29T00:00:00.000Z,
+            "date": 2019-10-30T00:00:00.000Z,
             "monthLabel": false,
           },
         ]

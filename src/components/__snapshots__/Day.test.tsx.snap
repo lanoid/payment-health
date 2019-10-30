@@ -2,7 +2,7 @@
 
 exports[`Day matches snapshot 1`] = `
 <li
-  className="day success-11 oct"
-  title="29/10/2019 success - 20 successes/9 failures"
+  className="day success-8 oct"
+  title="30/10/2019 success 6784 - 10325 value of successes / 3541 value of failures"
 />
 `;
