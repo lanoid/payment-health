@@ -2,6 +2,8 @@
 
 An implementation of heatmap that takes the sum of failed/successful transactions to determine the hotness of successes.
 
+[Bulb](https://bulb.co.uk) _might_ use this as a coding test, feel free to take a look!
+
 ## Setup
 
 `npm i`
@@ -31,4 +33,4 @@ In order to maintain accessibility the entire year is rendered as li’s with ti
 - Put data into redux so it fan be refreshed into browser cache when available.
 - Render this data as html on the server and refresh once per day.
 - Add currency processing.
-- Read the instructions properly!
+- Read the instructions properly, d’oh, spent my time building the heatmap, instead of using the amounts!
