@@ -1,5 +1,3 @@
-import { day } from '../types/day';
-
 export default () => {
     const days = [];
     const now = new Date();
