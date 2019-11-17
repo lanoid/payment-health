@@ -1,4 +1,4 @@
-import DateString from './dateString';
+import DateString from './DateString';
 
 describe('DateString', () => {
     const now = new Date();

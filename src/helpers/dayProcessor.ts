@@ -1,8 +1,7 @@
-import DateString from './dateString';
+import DateString from './DateString';
 
 import { transaction } from '../types/transaction';
 import { day } from '../types/day';
-import { resetWarningCache } from 'prop-types';
 
 export default (day: day, data: transaction[], dictionary: any) => {
     // Set defaults & counters

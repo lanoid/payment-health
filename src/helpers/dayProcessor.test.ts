@@ -1,5 +1,5 @@
 import DayProcessor from './DayProcessor';
-import DateString from './dateString';
+import DateString from './DateString';
 
 const now = new Date();
 

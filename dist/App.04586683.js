@@ -71814,7 +71814,7 @@ exports.default = [{
   "date": "2019-10-04",
   "amount": 399.99
 }];
-},{}],"helpers/dateString.ts":[function(require,module,exports) {
+},{}],"helpers/DateString.ts":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -71855,15 +71855,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var dateString_1 = __importDefault(require("./dateString"));
+var DateString_1 = __importDefault(require("./DateString"));
 
 exports.default = function (day, data, dictionary) {
   // Set defaults & counters
-  var date = dateString_1.default(day.date);
+  var date = DateString_1.default(day.date);
   day.score = 0;
   day.failures = 0;
   day.successes = 0;
-  day.simpleDate = dateString_1.default(day.date, '/', 'DMY');
+  day.simpleDate = DateString_1.default(day.date, '/', 'DMY');
   day.class = dictionary.noDataClass;
   day.type = dictionary.noDataLabel;
   day.value = 0; // Filter transaction data relevant to the day
@@ -71896,7 +71896,7 @@ exports.default = function (day, data, dictionary) {
 
   return day;
 };
-},{"./dateString":"helpers/dateString.ts"}],"components/Day.tsx":[function(require,module,exports) {
+},{"./DateString":"helpers/DateString.ts"}],"components/Day.tsx":[function(require,module,exports) {
 "use strict";
 
 var __extends = this && this.__extends || function () {
