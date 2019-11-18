@@ -4,7 +4,7 @@ An implementation of heatmap that takes the sum of failed/successful transaction
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9694a5fc-a0af-4b1d-9e33-d851c4399998/deploy-status)](https://app.netlify.com/sites/lanoid-payment-heatmap/deploys)
 
-[Bulb](https://bulb.co.uk) _might_ use this as a coding test, feel free to take a look!
+[Deployed](https://lanoid-payment-heatmap.netlify.com/)
 
 ## Setup
 
